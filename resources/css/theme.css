@@ -22620,14 +22620,16 @@ caption {
 [dir] .table td,
 [dir] .table tbody th,
 [dir] .table tbody td {
-  border-bottom: 0.0625rem solid #dee2e6;
+  border: 0.0625rem solid #dee2e6;
+  border-radius: 4px;
 }
 
 [dir] table tr:first-child th,
 [dir] table tr:first-child td,
 [dir] .table tr:first-child th,
 [dir] .table tr:first-child td {
-  border-top: 0.0625rem solid #dee2e6;
+  border: 0.0625rem solid #dee2e6;
+  border-radius: 4px;
 }
 
 .alert a {
